@@ -1,7 +1,7 @@
 # Machine-Learning-Projects
 This project showcases end-to-end machine learning workflow using synthetic data: data generation, train-test splitting, training multiple models (Logistic Regression, Decision Tree, Random Forest), evaluating with ROC/AUC, and visualizing results—demonstrating model comparison, performance analysis, and binary classification insights.
 
----
+
 
 ##  Project: Employee Salary Prediction using Linear & Ridge Regression
 
@@ -150,5 +150,5 @@ This project offers a clear visual understanding of how Ridge Regression penaliz
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f171a633-d729-48cc-86d0-a815be314ee6" />
 
 
----
+
 
