@@ -150,5 +150,85 @@ This project offers a clear visual understanding of how Ridge Regression penaliz
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f171a633-d729-48cc-86d0-a815be314ee6" />
 
 
+---
 
+#  Employer Salary Prediction using Machine Learning
+
+##  Project Overview
+This project aims to analyze employer-related data and **predict employee salaries** using machine learning techniques. By leveraging features such as experience, job title, education level, and location, the model helps HR departments make **data-driven decisions** regarding compensation and workforce planning.
+
+
+
+##  Problem Statement
+The goal is to build a regression model that can accurately estimate an employee’s salary based on various attributes. This enables:
+- Fair and consistent salary benchmarking
+- Identification of salary outliers
+- Strategic workforce budgeting
+
+
+
+##  Dataset Description
+- **Source**: `Employers_data.csv`
+- **Size**: 10,000 records × 10 columns
+- **Features**:
+  - `Employee_ID`, `Name`, `Age`, `Gender`, `Department`, `Job_Title`, `Experience_Years`, `Education_Level`, `Location`
+- **Target**:
+  - `Salary`
+
+
+
+##  Data Preprocessing
+- Checked for **missing values** and **duplicates** (none found)
+- Removed **outliers** using IQR method for numeric columns
+- Applied **one-hot encoding** to categorical features (`Gender`, `Department`, etc.)
+- Final encoded dataset shape: **(10000, 9887)**
+
+
+
+##  Exploratory Data Analysis (EDA)
+Visualizations included:
+- **Boxplots** for numeric features to detect outliers
+- **Heatmap** to analyze feature correlations
+- **Histograms** and **violin plots** for salary distribution
+- **Scatter plots** for relationships like `Experience vs Salary`
+- **Pairplot** for `Age`, `Experience_Years`, and `Salary`
+
+
+##  Model Building
+Two regression models were trained and evaluated:
+- **Linear Regression**
+- **Random Forest Regressor**
+
+###  Evaluation Metrics
+| Model              | R² Score | MAE     | MSE        | RMSE    |
+|-------------------|----------|---------|------------|---------|
+| Linear Regression | 0.9861   | 4294.91 | 29.2M      | 5404.39 |
+| Random Forest     | 0.9907   | 3519.85 | 19.5M      | 4419.22 |
+
+✅ **Random Forest** performed better and was saved as the final model.
+
+---
+
+##  Model Deployment
+The best-performing model was serialized using `joblib`:
+```python
+joblib.dump(best_model, 'best_salary_model.pkl')
+```
+
+
+
+##  Project Structure
+```
+├── Employers_data.csv
+├── salary_prediction.ipynb / .py
+├── best_salary_model.pkl
+├── README.md
+```
+
+
+
+##  Future Improvements
+- Integrate with a web dashboard (e.g., Streamlit or Flask)
+- Add feature selection and hyperparameter tuning
+- Deploy as an API for real-time salary prediction
 
