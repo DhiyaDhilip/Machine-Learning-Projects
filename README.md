@@ -232,3 +232,6 @@ joblib.dump(best_model, 'best_salary_model.pkl')
 - Add feature selection and hyperparameter tuning
 - Deploy as an API for real-time salary prediction
 
+
+<img width="428" height="333" alt="Screenshot 2025-10-22 231907" src="https://github.com/user-attachments/assets/5a7fbd81-0e86-498d-a110-5afc7b00f493" />
+
