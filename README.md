@@ -233,5 +233,24 @@ joblib.dump(best_model, 'best_salary_model.pkl')
 - Deploy as an API for real-time salary prediction
 
 
+<img width="1018" height="694" alt="Screenshot 2025-10-22 230945" src="https://github.com/user-attachments/assets/c756a0b5-83cd-42ea-9dcb-71ddfc973a97" />
+
+
+<img width="743" height="476" alt="Screenshot 2025-10-22 231120" src="https://github.com/user-attachments/assets/8b7b8f94-fd4e-4000-8601-ed1da8052078" />
+
+
+<img width="909" height="484" alt="Screenshot 2025-10-22 231137" src="https://github.com/user-attachments/assets/67116b32-bedc-46a4-8be4-92398eae100d" />
+
+
+<img width="739" height="493" alt="Screenshot 2025-10-22 231217" src="https://github.com/user-attachments/assets/486ebd39-54fc-4e58-b215-7bbfbac08e7c" />
+
+
+<img width="934" height="538" alt="Screenshot 2025-10-22 231236" src="https://github.com/user-attachments/assets/1c004d7c-765e-45c9-9d59-6f23f00d53b3" />
+
+
+<img width="922" height="892" alt="Screenshot 2025-10-22 231334" src="https://github.com/user-attachments/assets/134aac4e-ddce-4b95-9c8d-dc922a5b0538" />
+
+<img width="435" height="837" alt="Screenshot 2025-10-22 231742" src="https://github.com/user-attachments/assets/0e714701-b8b5-4d90-ac18-930877c90175" />
+
 <img width="428" height="333" alt="Screenshot 2025-10-22 231907" src="https://github.com/user-attachments/assets/5a7fbd81-0e86-498d-a110-5afc7b00f493" />
 
